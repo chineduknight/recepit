@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .containter {
+    min-height: 100vh;
+    width: 375px;
+    margin:auto;
+    main {
+      padding: 24px;
+      .header {
+        display: flex;
+        img {
+          padding: 17px 16px;
+          background-color: #e7ecfd;
+          border-radius: 8px;
+        }
+        .text {
+          margin-left: 16px;
+          h1 {
+            margin-top: 5px;
+            font-size: 14px;
+            font-weight: 500;
+          }
+          p {
+            margin-top: 5px;
+            font-size: 12px;
+            color: #666666;
+          }
+        }
+      }
+      .paid {
+        color: #00805f;
+        font-size: 12px;
+        background-color: #e5f7f3;
+        padding: 4px 12px;
+        border-radius: 5px;
+        width: max-content;
+        margin-top: 16px;
+      }
+      .receipt-info {
+        border-top: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+        margin-top: 17px;
+        padding-bottom: 12px;
+        .r-item {
+          display: flex;
+          justify-content: space-between;
+          p {
+            font-size: 12px;
+            margin-top: 12px;
+          }
+          p:first-of-type {
+            color: #666666;
+          }
+          .bill {
+            display: flex;
+            flex-direction: column;
+            p {
+              color: black;
+              text-align: right;
+            }
+            p:last-of-type {
+              color: #666666;
+            }
+          }
+        }
+      }
+      .details {
+        .heading {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 20px;
+          h2 {
+            font-size: 12px;
+            font-weight: 500;
+            color: #666666;
+          }
+        }
+        p {
+          font-size: 12px;
+        }
+        .item {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 1px solid #e5e5e5;
+          padding-bottom: 8px;
+          margin-top: 12px;
+          span {
+            display: flex;
+            align-items: center;
+            p {
+              color: #666666;
+            }
+            p:first-of-type {
+              margin-top: 4px;
+              color: #1246ea;
+              background: #e7ecfd;
+              border-radius: 4px;
+              padding: 2px 6px;
+              margin-right: 4px;
+            }
+          }
+        }
+      }
+      .other-info {
+        p {
+          font-size: 12px;
+        }
+        .total {
+          margin-top: 12px;
+          padding-bottom: 8px;
+          p {
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+        .amount-paid {
+          margin-top: 12px;
+          padding-bottom: 8px;
+        }
+        .balance {
+          margin-top: 12px;
+          padding-bottom: 8px;
+        }
+      }
+      h3 {
+        color: #666666;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+    footer{
+      background-color: #E7ECFD;
+      padding:16px 0;
+      text-align: center;
+      
+      div{
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+          margin-left:4px;
+        }
+      }
+    }
+  }
+}
